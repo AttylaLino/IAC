@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "subscriptionId": {
+        "value": "ccc74d94-8d05-483b-a23f-884536998cce"
+      },
+        "name": {
+            "value": "attylaWebapp"
+        },
+        "location": {
+            "value": "East US 2"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "site"
+        },
+        "serverFarmResourceGroup": {
+            "value": "devops_site"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnetcore"
+        }
+    }
+}
